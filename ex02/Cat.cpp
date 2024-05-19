@@ -54,10 +54,10 @@ Cat &Cat::operator=(const Cat &src)
 void Cat::getIdeas( void ) const
 {
     for (int i = 0; i < 3; ++i) 
-        cout << "[" << i << "]: " << _brain->getIdea(i) << endl;
+        cout << "[" << i << "]: " << this->_brain->getIdea(i) << endl;
 }
 
 void Cat::setIdea(int index, const string &idea)
 {
-        _brain->setIdea(index, idea); 
+        this->_brain->setIdea(index, idea); 
 }

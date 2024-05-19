@@ -2,10 +2,10 @@
 
 
 
-void AAnimal::makeSound ( void ) const
-{
-    cout << "Unknown animal sound"<<endl;
-}
+// void AAnimal::makeSound ( void ) const
+// {
+//     cout << "Unknown animal sound"<<endl;
+// }
 
 AAnimal::AAnimal ( void )
 {
@@ -14,7 +14,7 @@ AAnimal::AAnimal ( void )
 
 AAnimal::~AAnimal ( void )
 {
-    cout << "Default Animal destructor called"<<endl;
+    cout << "Animal destructor called"<<endl;
 }
 
 

@@ -50,14 +50,14 @@ Cat &Cat::operator=(const Cat &src)
     return *this;
 }
 
-// //test functions
-// void Cat::getIdeas( void ) const
-// {
-//     for (int i = 0; i < 3; ++i) 
-//         cout << "[" << i << "]: " <<this-> _brain->getIdea(i) << endl;
-// }
+//test functions
+void Cat::getIdeas( void ) const
+{
+    for (int i = 0; i < 3; ++i) 
+        cout << "[" << i << "]: " <<this-> _brain->getIdea(i) << endl;
+}
 
-// void Cat::setIdea(int index, const string &idea)
-// {
-//         this->_brain->setIdea(index, idea); 
-// }
+void Cat::setIdea(int index, const string &idea)
+{
+        this->_brain->setIdea(index, idea); 
+}

@@ -16,10 +16,11 @@ class Dog : public AAnimal
         Dog ( const Dog &src);
         virtual ~Dog ( void );
         Dog &operator=(const Dog &src);
+
         virtual void makeSound( void ) const; 
         virtual string getType( void ) const ;
 
-        //
+        //test functions
         void getIdeas( void ) const ;
         void setIdea(int index, const string &idea);
 };

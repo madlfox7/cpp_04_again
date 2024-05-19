@@ -22,11 +22,9 @@ class AAnimal
         AAnimal ( const AAnimal &src);
         virtual ~AAnimal ( void );
         AAnimal &operator=(const AAnimal &src);
+        
         virtual void makeSound( void ) const = 0;
         virtual string getType( void ) const ;
 };
-
-//Abstract class => min 1 pure virtual function
-//Cannot be instanciated
 
 # endif

@@ -21,7 +21,7 @@ Dog::Dog ( void )
 
 Dog::~Dog ( void )
 {
-    cout << "Default Dog destructor called"<<endl;
+    cout << "Dog destructor called"<<endl;
     delete _brain;
 }
 

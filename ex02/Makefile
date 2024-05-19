@@ -1,6 +1,6 @@
 NAME = abstr
 CC = c++
-FLAGS = -Wall -Wextra -Werror  -Wshadow -Wno-shadow  -std=c++98
+FLAGS = -Wall -Wextra -Werror  -std=c++98 #-Wshadow -Wno-shadow 
 SRC =  main.cpp AAnimal.cpp WrongAnimal.cpp Dog.cpp Cat.cpp WrongCat.cpp Brain.cpp
 OBJS = $(SRC:.cpp=.o)
 
